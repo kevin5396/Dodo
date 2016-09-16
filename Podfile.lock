@@ -1,0 +1,93 @@
+PODS:
+  - Action (1.2.2):
+    - RxCocoa (~> 2.0)
+    - RxSwift (~> 2.0)
+  - Alamofire (3.5.0)
+  - AlamofireImage (2.4.1):
+    - Alamofire (~> 3.3)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Cosmos (1.2.3)
+  - Eureka (1.7.0)
+  - Moya/Core (7.0.0):
+    - Alamofire (~> 3.0)
+    - Result (~> 2.0)
+  - Moya/RxSwift (7.0.0):
+    - Moya/Core
+    - RxSwift (~> 2.0)
+  - NSObject+Rx (1.2.1):
+    - RxSwift (~> 2.1)
+  - Reachability (3.1.1)
+  - Result (2.1.2)
+  - RxCocoa (2.6.0):
+    - RxSwift (~> 2.5)
+  - RxSwift (2.6.0)
+  - SCLAlertView (0.6.0)
+  - SwiftyJSON (2.3.2)
+  - XLPagerTabStrip (5.0.0)
+
+DEPENDENCIES:
+  - Action
+  - Alamofire (~> 3.5)
+  - AlamofireImage (~> 2.0)
+  - ChameleonFramework/Swift
+  - Cosmos (~> 1.2)
+  - Eureka (from `https://github.com/xmartlabs/Eureka.git`, branch `swift2.3`)
+  - Moya/RxSwift
+  - NSObject+Rx
+  - Reachability (from `https://github.com/ashfurrow/Reachability.git`, branch `frameworks`)
+  - RxCocoa
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`, branch `rxswift-2.0`)
+  - SCLAlertView (from `https://github.com/vikmeup/SCLAlertView-Swift.git`, branch `swift-2.3`)
+  - SwiftyJSON
+  - XLPagerTabStrip (~> 5.0)
+
+EXTERNAL SOURCES:
+  Eureka:
+    :branch: swift2.3
+    :git: https://github.com/xmartlabs/Eureka.git
+  Reachability:
+    :branch: frameworks
+    :git: https://github.com/ashfurrow/Reachability.git
+  RxSwift:
+    :branch: rxswift-2.0
+    :git: https://github.com/ReactiveX/RxSwift.git
+  SCLAlertView:
+    :branch: swift-2.3
+    :git: https://github.com/vikmeup/SCLAlertView-Swift.git
+
+CHECKOUT OPTIONS:
+  Eureka:
+    :commit: b8f35699244c9f7c9ff4c8355fc8542a16a731bc
+    :git: https://github.com/xmartlabs/Eureka.git
+  Reachability:
+    :commit: 6db8c29565c319f59174dd63e4b1ac5b471d133a
+    :git: https://github.com/ashfurrow/Reachability.git
+  RxSwift:
+    :commit: ac156405b51514f0bc075c11b55b0fb6e67c1a3b
+    :git: https://github.com/ReactiveX/RxSwift.git
+  SCLAlertView:
+    :commit: 1afb28ee99c44608895d8110ee1f4cad98afbe11
+    :git: https://github.com/vikmeup/SCLAlertView-Swift.git
+
+SPEC CHECKSUMS:
+  Action: 4c00077042467dbc214418c0b3e46c652b2785c5
+  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  AlamofireImage: 3ccf3347d9ea24580dc11fb892770a0be6a29826
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Cosmos: efddd01b729956ad6335bc58bc92e5735a1d12a3
+  Eureka: 2020d9faeef7b7e9adeb9e3d8af779e5931c1897
+  Moya: f004b82418fb8165ee1fc9f86190db4b3611fda9
+  NSObject+Rx: 5d032a7f161602dec6b82dcf12731e91ce15b8da
+  Reachability: 5b69def55ffa04d6f9425a6da1f47338b60557b2
+  Result: 6e722d4a66b1408680dbfcdf51c0b1c4b706316a
+  RxCocoa: 89ab00d5753502520227940e3a0e0a0413683c6b
+  RxSwift: 77f3a0b15324baa7a1c9bfa9f199648a82424e26
+  SCLAlertView: 0f6b3c23a48b4993564ff1dd3c065782e4b2b687
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  XLPagerTabStrip: 87b8b705f9a7178e76a063ffaa2d70045944a965
+
+PODFILE CHECKSUM: cd926ce60fdd3dfb51fae64af9e32f5ef38d9156
+
+COCOAPODS: 1.0.1
